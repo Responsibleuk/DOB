@@ -2,7 +2,7 @@
 
     [Master Stylesheet]
 
-    Project:    Terio - Creative Agency HTML Template
+    Project:    StoryX - Creative Agency HTML Template
     
     Version:    1.0
 
@@ -249,6 +249,7 @@ header {
     color: white;
     width: 51%;
 }
+
 .hero-section-one.two {
     background-position: center;
     background-size: cover;
@@ -261,6 +262,7 @@ header {
 .hero-section-one .heading-boder p {
     color: white;
     padding-bottom: 20px;
+    width: 60%;
 }
 .hero-section-one .heading-boder span {
     position: relative;
@@ -372,7 +374,7 @@ img.dots {
 }
 .project-text {
     margin-top: 40px;
-    border-left: 3px solid #0049ff;
+    border-left: 3px solid #015fb8;
     padding-left: 40px;
 }
 .project-data {
@@ -407,7 +409,7 @@ img.dots {
     fill: #929292;
 }
 .swiper-button-next:hover svg,.swiper-button-prev:hover svg {
-    fill: #0049ff;
+    fill: #015fb8;
 }
 .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
     opacity: 1;
@@ -465,7 +467,7 @@ span.swiper-pagination-bullet{
 }
 span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     background-color: transparent;
-    border: 1px solid #0049ff;
+    border: 1px solid #015fb8;
 }
 .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
     display: block;
@@ -612,7 +614,7 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     color: #666;
 }
 .latest-news form button {
-    background-color: #0049ff;
+    background-color: #015fb8;
     height: 60px;
     right: 0;
     margin-top: 0px;
@@ -697,6 +699,13 @@ span.swiper-pagination-bullet.swiper-pagination-bullet-active {
     position: relative;
     z-index: 111;
 }
+.heading-boder p {
+   
+    width: 75%;
+   
+}
+
+
 .heading-boder span {
     position: relative;
     padding-left: 10px;
@@ -954,10 +963,10 @@ form.touch .btugap {
     font-weight: 600;
 }
 .themebtu {
-  border-color: #0049ff;
-  color: #0049ff;
+  border-color: #015fb8;
+  color: #015fb8;
   padding: 12px 40px;
-  background-image: linear-gradient(45deg, #0049ff 50%, transparent 50%);
+  background-image: linear-gradient(45deg, #015fb8 50%, transparent 50%);
   background-position: 100%;
   background-size: 400%;
   transition: .5s ease-in-out;
@@ -968,11 +977,11 @@ form.touch .btugap {
   color: white;
 }
 .themebtu.full {
-    background-color: #0049ff;
+    background-color: #015fb8;
     color: white;
 }
 .themebtu.full {
-    border: #0049ff 1px solid;
+    border: #015fb8 1px solid;
     background-image: linear-gradient(45deg, #000000 50%, transparent 50%);
 }
 .themebtu.full:hover {
@@ -1302,7 +1311,7 @@ form.touch .btugap {
 .join-our-team {
     width: 100%;
     height: 504px;
-    border: 1px solid #0049ff;
+    border: 1px solid #015fb8;
     text-align: center;
     justify-content: center;
     align-items: center;
@@ -1381,9 +1390,9 @@ header.two input {
     color: #222;
 }
 header.two .themebtu{
-  color: #0049ff;
-  border: 1px solid #0049ff;
-  background-image: linear-gradient(45deg, #0049ff 50%, transparent 50%);
+  color: #015fb8;
+  border: 1px solid #015fb8;
+  background-image: linear-gradient(45deg, #015fb8 50%, transparent 50%);
 }
 header.two .themebtu:hover{
   color: #fff;
@@ -1620,7 +1629,7 @@ section.why-choose-us .heading-boder h2{
     top: 55%;
 }
 .case-studies .style-shapes-1{
-    border: 10px solid #0049ff;
+    border: 10px solid #015fb8;
 }
 .style-shapes-2 {
     position: absolute;
@@ -1909,7 +1918,7 @@ ul.sidebar .brandicon {
 }
 .Pricing-style:hover {
     background-color: white;
-    border: 1px solid #0049ff;
+    border: 1px solid #015fb8;
 }
 .standard span{
     font-size: 40px;
@@ -2809,4 +2818,11 @@ li.menu-item-has-children.active {
 .team-member-text h6,.portfolios-data,.makes-us-different-text,.discovery-text.two h4,
 .mobile-nav > ul li > a {
     transition: .3s ease-in-out;
+}
+
+
+
+
+.center {
+    margin: auto;
 }
